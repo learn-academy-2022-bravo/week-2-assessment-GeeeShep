@@ -8,11 +8,17 @@
 // --------------------1) What will this log?
 
 var cohort = "Bravo 2022"
-// console.log(cohort.split(""))
+//  console.log(cohort.split(""))
 
-// a) Your answer:
-// b) Verify and explain:
-
+// a) Your answer: the output should split the words into individual characters 
+//in an array.
+// b) Verify and explain: verified!! this divides the string and rerturns 
+// it as an array of individual strings in the array
+// //[
+//   'B', 'r', 'a', 'v',
+//   'o', ' ', '2', '0',
+//   '2', '2'
+// ]
 
 // --------------------2) What will this log?
 
@@ -21,26 +27,29 @@ const greeter = (name) => {
 }
 // console.log(greeter("LEARN Student"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: it should comeback with nothing or undefined.
+// b) Verify and explain: so undefined is the output becuase a parameter
+// was not given 
 
 
 // --------------------3) What will this log?
 
 var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
-// console.log(multBy2)
+//  console.log(multBy2)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: this should log [8, 10 ,12, 14, 16]
+// b) Verify and explain: this takes the array and gives an output of a new 
+// array using the .map by multiplying each value by 2
 
 
 // --------------------4) What will this log?
 
 var onlyOdds = [11, 12, 13, 14, 15].filter(value => value % 2 !== 0)
-// console.log(onlyOdds)
+console.log(onlyOdds)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: this should be [11, 13, 15]
+// b) Verify and explain: this is an array  using modulo to filter out
+// the even numbers
 
 
 // --------------------5) What will this log?
@@ -53,8 +62,9 @@ var myCodingSkills = {
 }
 // console.log(myCodingSkills.languages[0])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Javascript
+// b) Verify and explain: this is asking for the index of 0 within the 
+// languages class 
 
 
 // --------------------STRETCH: What will this log?
@@ -67,7 +77,8 @@ class Learn {
   }
 }
 var learnStudent = new Learn("George")
-// console.log(learnStudent)
+ console.log(learnStudent)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: i believe this will output George Bravo 2022
+// b) Verify and explain: So it did but with the titles included. Not 
+// sure exactly how it included it.
